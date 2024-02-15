@@ -1,15 +1,22 @@
+body {
+  font-family: Arial, Verdana;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
 .gallery {
-    display: grid;
-grid-template-columns: 1fr 1fr;
-column-gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
 }
 .active {
-    background: black; 
-    color: white;
-    text-decoration: underline;
-    
+  background: black; 
+  color: white;
+  text-decoration: underline;
 }
 *{
-  background: green;  
-  box-sizing: border-box
+  background: green;
+  box-sizing: border-box;
 }
